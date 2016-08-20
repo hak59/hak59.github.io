@@ -23,6 +23,7 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/slideshow.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,11 +47,11 @@
                 <!-- <a class="navbar-brand page-scroll" href="#page-top">
                     <img src="img/logos/odigologo.png" class="img-responsive" alt="">
                 </a> -->
-                <div class="col-md-4 col-sm-5">
+                <!-- <div class="col-md-4 col-sm-5"> -->
                     <a class="navbar-brand page-scroll" href="#page-top">
-                        <img src="img/logos/odigologo.png" class="img-responsive img-centered" alt="">
+                        <!-- <img src="img/logos/odigologo.png" class="img-responsive img-centered" alt=""> --> Odigo Realty
                     </a>
-                </div>
+                <!-- </div> -->
                 
             </div>
 
@@ -116,8 +117,8 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Personalized promotions</h4>
+                    <p class="text-muted">The Odigo team is built around its personal committment to each of its clients. We will respond immediately to your email subscription, and create hand-curated lists of the best deals in this volatile market. </p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -142,90 +143,93 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal" onclick="currentSlide(1)">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/listings/l1-1.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>11833 NE 73rd St</h4>
+                        <p class="text-muted">Kirkland, WA 98033</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal" onclick="currentSlide(10)">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/listings/l2-1.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>7579 Old Redmond Rd</h4>
+                        <p class="text-muted">Redmond, WA 98052</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal" onclick="currentSlide(16)">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="img/listings/l3-1.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>11441 81st Ave NE</h4>
+                        <p class="text-muted">Kirkland, WA 98034</p>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal" onclick="currentSlide(18)">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/listings/l4-1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>1610 Belmont Ave APT 211</h4>
+                        <p class="text-muted">Seattle, WA 98122</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal" onclick="currentSlide(20)">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/listings/l5-1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>8849 NE 176th St</h4>
+                        <p class="text-muted">Bothell, WA 98011</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal" onclick="currentSlide(31)">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/listings/l6-4.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>819 Virginia St</h4>
+                        <p class="text-muted">Seattle, WA 98101<p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </section>
 
@@ -316,15 +320,15 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Meet the best real estate team in Seattle!</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <h4>Peter Kim</h4>
+                        <p class="text-muted">Broker</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -338,8 +342,8 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <h4>Johnmar Cabanes</h4>
+                        <p class="text-muted">Broker</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -408,7 +412,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Please enter your Microsoft email address to get your exclusive discounts.</h3>
                 </div>
             </div>
             <div class="row">
@@ -422,7 +426,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" name="_replyto"class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" name="_replyto"class="form-control" placeholder="Your Microsoft Email *" id="email" required data-validation-required-message="Please enter your Microsoft email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
@@ -451,10 +455,10 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                <div class="col-md-2">
+                    <img class="img-responsive" src="img/logos/odigologosmall.png" class="img-responsive img-centered" alt="">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-8">
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
@@ -464,12 +468,12 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <ul class="list-inline quicklinks">
                         <li><a href="#">Privacy Policy</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
+                        <!-- <li><a href="#">Terms of Use</a>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -493,18 +497,81 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <h2>Craftsman style home</h2>
+                            <p class="item-intro text-muted">4 bedroom 2.75 bathroom home on a 8,000 sqft lot.</p>
+                            <!-- <img class="img-responsive img-centered" src="img/listings/l1-1.jpg" alt=""> -->
+
+                            <div class="slideshow-container">
+                              <div class="mySlides">
+                                <div class="numbertext">1 / 9</div>
+                                <img src="img/listings/l1-1.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">2 / 9</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l1-2.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">3 / 9</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l1-3.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">4 / 9</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l1-10.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">5 / 9</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l1-5.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">6 / 9</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l1-6.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">7 / 9</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l1-7.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">8 / 9</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l1-8.jpg" style="width:100%">
+                              </div>
+
+
+                              <div class="mySlides">
+                                <div class="numbertext">9 / 9</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l1-9.jpg" style="width:100%">
+                              </div>
+
+                              <a class="prev" onclick="plusSlides(-1)">❮</a>
+                              <a class="next" onclick="plusSlides(1)">❯</a>
+                            </div>
+                            
+
+                            <div style="text-align:center">
+                              <span class="dot" onclick="currentSlide(1)"></span> 
+                              <span class="dot" onclick="currentSlide(2)"></span> 
+                              <span class="dot" onclick="currentSlide(3)"></span> 
+
+                              <span class="dot" onclick="currentSlide(4)"></span> 
+                              <span class="dot" onclick="currentSlide(5)"></span> 
+                              <span class="dot" onclick="currentSlide(6)"></span> 
+
+                              <span class="dot" onclick="currentSlide(7)"></span> 
+                              <span class="dot" onclick="currentSlide(8)"></span> 
+                              <span class="dot" onclick="currentSlide(9)"></span> 
+                            </div>
+                            <br>
+                            <p>Beautiful top to bottom renovation of this 2880sqft Craftsman styled 4 bedroom 2.75 bath home in Kirkland's Rose Hill! On an 8,000 sqft lot, amongst multi-million dollar homes, private cul-de-sac and adjacent to all of Downtown Kirkland, Bridle Trails and Rose Hills urban amenities featuring full kitchen, living & bathroom updates, Carrara marble, walnut stained Oak floors, slab granite, stainless KitchenAid appliances & a 5 piece master bath with massive closet. Gorgeous home on a private lane!</p>
                             <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                You can see the full zillow posting <a href="http://www.zillow.com/homedetails/11833-NE-73rd-St-Kirkland-WA-98033/48903038_zpid/">here</a>.</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Listing</button>
                         </div>
                     </div>
                 </div>
@@ -525,12 +592,60 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Heading</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Spacious Condo</h2>
+                            <p class="item-intro text-muted">2 bedroom, 2nd floor condominium with hardwood flooring, cozy wood burning fireplace, and covered balcony. </p>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt=""> -->
+
+                            <div class="slideshow-container">
+                              <div class="mySlides">
+                                <div class="numbertext">1 / 6</div>
+                                <img src="img/listings/l2-1.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">2 / 6</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l2-2.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">3 / 6</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l2-3.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">4 / 6</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l2-4.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">5 / 6</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l2-5.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">6 / 6</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l2-6.jpg" style="width:100%">
+                              </div>
+
+                              <a class="prev" onclick="plusSlides(-1)">❮</a>
+                              <a class="next" onclick="plusSlides(1)">❯</a>
+                            </div>
+                            
+
+                            <div style="text-align:center">
+                              <span class="dot" onclick="currentSlide(10)"></span> 
+                              <span class="dot" onclick="currentSlide(11)"></span> 
+                              <span class="dot" onclick="currentSlide(12)"></span> 
+
+                              <span class="dot" onclick="currentSlide(13)"></span> 
+                              <span class="dot" onclick="currentSlide(14)"></span> 
+                              <span class="dot" onclick="currentSlide(15)"></span> 
+
+                            </div>
+                            <br>
+                            <p> Ideally situated just moments from downtown Redmond. Enjoy easy access to 520, be to Microsoft in under 10 minutes or ditch work for the nearby Sammamish River Trail or take the dog for an off leash run at Marymoor. Covered parking and all appliances included. NO RENTAL CAP and right now rents for $1750/mo. Other units very similar goes for $1800.</p>
+                            <p>You can see the rest of the zillow posting <a href="http://www.zillow.com/homedetails/7579-Old-Redmond-Rd-APT-2-Redmond-WA-98052/2107691409_zpid/">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Listing</button>
                         </div>
                     </div>
                 </div>
@@ -552,12 +667,32 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Remodeled Kirkland Home</h2>
+                            <p class="item-intro text-muted">5 beds 2.5 baths 2,390 sqft</p>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                            <div class="slideshow-container">
+                              <div class="mySlides">
+                                <div class="numbertext">1 / 2</div>
+                                <img src="img/listings/l3-1.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">2 / 2</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l3-2.jpg" style="width:100%">
+                              </div>
+
+                              <a class="prev" onclick="plusSlides(-1)">❮</a>
+                              <a class="next" onclick="plusSlides(1)">❯</a>
+                            </div>
+                            
+
+                            <div style="text-align:center">
+                              <span class="dot" onclick="currentSlide(16)"></span> 
+                              <span class="dot" onclick="currentSlide(17)"></span> 
+                            </div>
+                            <p>Great floor plan, open spaces, new kitchen, flooring, paint, updated bathrooms, new presidential roof, and more! Vaulted ceilings and a great room concept, deigner colors and finishes make this home a must see! Close to shopping, schools parks.</p>
+                            <p>You can see the full zillow listing <a href="http://www.zillow.com/homedetails/11441-81st-Ave-NE-Kirkland-WA-98034/48855170_zpid/">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Listing</button>
                         </div>
                     </div>
                 </div>
@@ -579,12 +714,34 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Press Condos in Capitol Hill</h2>
+                            <p class="item-intro text-muted">2 beds 2 baths 920 sqft</p>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt=""> -->
+
+                            <div class="slideshow-container">
+                              <div class="mySlides">
+                                <div class="numbertext">1 / 2</div>
+                                <img src="img/listings/l4-1.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">2 / 2</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l4-2.jpg" style="width:100%">
+                              </div>
+
+                              <a class="prev" onclick="plusSlides(-1)">❮</a>
+                              <a class="next" onclick="plusSlides(1)">❯</a>
+                            </div>
+                            
+
+                            <div style="text-align:center">
+                              <span class="dot" onclick="currentSlide(18)"></span> 
+                              <span class="dot" onclick="currentSlide(19)"></span> 
+                            </div>
+                            <br>
+                            <p>Modern two bedroom, two bathroom with polished concrete floors at Press Condos. This light-filled corner unit is within blocks of the new Capitol Hill Light Rail Station, the First Hill Trolley, amazing restaurants & everything Capitol Hill. Easy walking distance to downtown. Fantastic amenities: spacious view rooftop deck, owners lounge, 24 hour gym & conference room. Secure parking, no rental cap & furry friends welcome. A very strong owners' association!</p>
+                            <p>You find the full zillow post <a href="http://www.zillow.com/homedetails/1610-Belmont-Ave-APT-211-Seattle-WA-98122/72496277_zpid/">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Listing</button>
                         </div>
                     </div>
                 </div>
@@ -606,12 +763,94 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Open Space Bothell home</h2>
+                            <p class="item-intro text-muted">5 beds 2.5 baths 2,680 sqft.</p>
+                            <!-- <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt=""> -->
+
+                            <div class="slideshow-container">
+                              <div class="mySlides">
+                                <div class="numbertext">1 / 11</div>
+                                <img src="img/listings/l5-1.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">2 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-2.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">3 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-3.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">4 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-10.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">5 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-5.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">6 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-6.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">7 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-7.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">8 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-8.jpg" style="width:100%">
+                              </div>
+
+
+                              <div class="mySlides">
+                                <div class="numbertext">9 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-9.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">10 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-10.jpg" style="width:100%">
+                              </div>
+
+
+                              <div class="mySlides">
+                                <div class="numbertext">11 / 11</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l5-11.jpg" style="width:100%">
+                              </div>
+
+                              <a class="prev" onclick="plusSlides(-1)">❮</a>
+                              <a class="next" onclick="plusSlides(1)">❯</a>
+                            </div>
+                            
+
+                            <div style="text-align:center">
+                              <span class="dot" onclick="currentSlide(20)"></span> 
+                              <span class="dot" onclick="currentSlide(21)"></span> 
+                              <span class="dot" onclick="currentSlide(22)"></span> 
+
+                              <span class="dot" onclick="currentSlide(23)"></span> 
+                              <span class="dot" onclick="currentSlide(24)"></span> 
+                              <span class="dot" onclick="currentSlide(25)"></span> 
+
+                              <span class="dot" onclick="currentSlide(26)"></span> 
+                              <span class="dot" onclick="currentSlide(27)"></span> 
+                              <span class="dot" onclick="currentSlide(28)"></span> 
+
+                              <span class="dot" onclick="currentSlide(29)"></span> 
+                              <span class="dot" onclick="currentSlide(30)"></span> 
+                            </div>
+                            <br>
+
+                            <p>South facing 3-car garage house sits in a quiet neighborhood back to open space.High ceiling foyer leads to bright great room & family room w/double sided fp.2nd floor offers loft, 5 br,Vaulted ceiling in master,California closet. 40k upgrades(hardwood on 1st floor,new granite/quartz counter tops,new ext paint,furnace, Bosch washer/dryer, Bosch dishwasher, water filtering system in kitchen. Walk to Burke-Gilman trails, Bothell High/library & new Bothell Landing. Award-winning Northshore SD.</p>
+                            <p>You can see the full zillow listing <a href="http://www.zillow.com/homedetails/8849-NE-176th-St-Bothell-WA-98011/58391498_zpid/">here/a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Listing</button>
                         </div>
                     </div>
                 </div>
@@ -633,12 +872,54 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Luxury Condo/h2>
+                            <p class="item-intro text-muted">1 bed 1 bath 738 sqft</p>
+                            <!-- <img class="img-responsive img-centered" src="img/listings/l6-1.jpg" alt=""> -->
+
+                            <div class="slideshow-container">
+                              <div class="mySlides">
+                                <div class="numbertext">1 / 5</div>
+                                <img src="img/listings/l6-1.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">2 / 5</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l6-2.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">3 / 5</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l6-3.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">4 / 5</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l6-4.jpg" style="width:100%">
+                              </div>
+
+                              <div class="mySlides">
+                                <div class="numbertext">5 / 5</div>
+                                <img class= "img-responsive img-centered" src="img/listings/l6-5.jpg" style="width:100%">
+                              </div>
+
+
+                              <a class="prev" onclick="plusSlides(-1)">❮</a>
+                              <a class="next" onclick="plusSlides(1)">❯</a>
+                            </div>
+                            
+
+                            <div style="text-align:center">
+                              <span class="dot" onclick="currentSlide(31)"></span> 
+                              <span class="dot" onclick="currentSlide(32)"></span> 
+                              <span class="dot" onclick="currentSlide(33)"></span> 
+
+                              <span class="dot" onclick="currentSlide(34)"></span> 
+                              <span class="dot" onclick="currentSlide(35)"></span> 
+                            </div>
+                            <br>
+                            <p>Beautiful flooring invites you in to this luxury condo with VIEWS. Granite tiled counters & stainless steel appliances in kitchen. Open floor plan with dining/living room off kitchen. Floor to ceiling windows in living room with great city views & a granite surround gas fireplace. Common secured garage and a storage room. Amenities include gym, spa, club house & spectacular views of City, Lk Union & Olympics from roof top patio.</p>
+                            <p>You can see the full zillow listing <a href="http://www.zillow.com/homedetails/819-Virginia-St-UNIT-2506-Seattle-WA-98101/80126679_zpid/">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Listing</button>
                         </div>
                     </div>
                 </div>
@@ -654,6 +935,9 @@
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- photo slideshow js -->
+    <script src="js/slideshow.js"></script>
 
     <!-- Contact Form JavaScript -->
     <!-- <script src="js/jqBootstrapValidation.js"></script>
