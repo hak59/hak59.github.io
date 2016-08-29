@@ -1,11 +1,19 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(n,fst,lst) {
+  if (n == -1 && slideIndex == fst) {
+    showSlides(slideIndex = lst);
+  }
+  else if (n == 1 && slideIndex == lst){
+    showSlides(slideIndex = fst);
+  }
+  else{
+    showSlides(slideIndex += n);
+  }
 }
 
-function currentSlide(n) {
+function currentSlide(n,fst,lst) {
   showSlides(slideIndex = n);
 }
 

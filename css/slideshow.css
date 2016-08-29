@@ -71,3 +71,11 @@
 .active, .dot:hover {
   background-color: #717171;
 }
+
+a.next::selection{
+  background: none;
+}
+
+a.prev::selection{
+  background: none;
+}
